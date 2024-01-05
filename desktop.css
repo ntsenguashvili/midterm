@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: poppins;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav div{
+    width: 32%;
+}
+
+.menu-ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#Sell-Something{
+    display: inline-flex;
+    justify-content:flex-end;
+}
+
+#Sell-Something button{
+    background-color: #29B24E;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border-color: #29B24E;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+ul{
+    padding: 0;
+}
