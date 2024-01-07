@@ -1,22 +1,22 @@
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
     font-family: poppins;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
 }
 
-nav div{
+nav div {
     width: 32%;
 }
 
-.menu-ul{
+.menu-ul {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -24,13 +24,13 @@ nav div{
     list-style: none;
 }
 
-#Sell-Something{
+#Sell-Something {
     display: inline-flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
 }
 
-#Sell-Something button{
+#Sell-Something button {
     background-color: #29B24E;
     color: #FFFFFF;
     border-radius: 12px;
@@ -38,34 +38,115 @@ nav div{
     padding: 4px;
 }
 
-#search-button{
+#search-button {
     display: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: 100;
 }
 
-ul{
+ul {
     padding: 0;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
-.logo img{
-    height: 48px;;
+
+.logo img {
+    height: 48px;
+    ;
     width: 48px;
 }
+
 .logo a {
     height: 48px;
 }
-#main-container{
+
+#main-container {
     width: 90vw;
     margin-left: 5vw;
     padding-top: 40px;
 }
 
 /* -----end of navigation----- */
+
+#main-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.filter {
+    width: 24%;
+    padding-left: 32px;
+    box-sizing: border-box;
+}
+
+.cover {
+    width: 74%;
+}
+
+#main-section ul {
+    list-style-type: none;
+}
+
+.cover {
+    background-image: url(pics/cover-picture.jpg);
+    background-size: cover;
+    height: 741px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter label {
+    font-family: Poppins;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cover h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top:60px;
+}
+
+.cover p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cover input{
+    box-shadow: 0px 4px 10px 0px #7C7C7C45;
+    width: 324px;
+    height: 48px;
+    border-radius: 10px; 
+    padding: 2px 10px 2px 10px; 
+    margin-top: 40px;
+    background-color: #F8F8F8CC;   
+}
+
+input[type='checkbox'] {
+    background-color: #29B24E;
+}
+
+#main-section div {
+    border: 1px solid;
+}
