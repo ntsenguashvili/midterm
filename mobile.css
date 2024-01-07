@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: poppins;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+  
+nav div{
+    width: 32%;
+}
+
+.menu-ul{
+    display: none;
+}
+#Sell-Something{
+    display: none;
+}
+
+#search-button{
+    display: inline-flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 48px;;
+    width: 48px;
+}
+.logo a {
+    height: 48px;
+}
+#main-container{
+    width: 98vw;
+    margin-left: 1vw;
+    padding-top: 40px;
+}
+
+/* -----end of navigation----- */

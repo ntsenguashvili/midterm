@@ -27,6 +27,7 @@ nav div{
 #Sell-Something{
     display: inline-flex;
     justify-content:flex-end;
+    align-items: center;
 }
 
 #Sell-Something button{
@@ -34,6 +35,11 @@ nav div{
     color: #FFFFFF;
     border-radius: 12px;
     border-color: #29B24E;
+    padding: 4px;
+}
+
+#search-button{
+    display: none;
 }
 
 a{
@@ -44,3 +50,22 @@ a{
 ul{
     padding: 0;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 48px;;
+    width: 48px;
+}
+.logo a {
+    height: 48px;
+}
+#main-container{
+    width: 90vw;
+    margin-left: 5vw;
+    padding-top: 40px;
+}
+
+/* -----end of navigation----- */
