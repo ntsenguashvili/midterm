@@ -36,6 +36,9 @@ nav div {
     border-radius: 12px;
     border-color: #29B24E;
     padding: 4px;
+    padding: 8px;
+    box-shadow: none;
+    border: none;
 }
 
 #search-button {
@@ -78,6 +81,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 2%;
+    margin-top: 40px;
 }
 
 .filter {
@@ -120,7 +124,7 @@ ul {
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top:60px;
+    padding-top: 60px;
 }
 
 .cover p {
@@ -133,20 +137,186 @@ ul {
 
 }
 
-.cover input{
+.cover input {
     box-shadow: 0px 4px 10px 0px #7C7C7C45;
     width: 324px;
     height: 48px;
-    border-radius: 10px; 
-    padding: 2px 10px 2px 10px; 
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
     margin-top: 40px;
-    background-color: #F8F8F8CC;   
+    background-color: #F8F8F8CC;
+    border: none;
 }
 
 input[type='checkbox'] {
     background-color: #29B24E;
 }
 
-#main-section div {
-    border: 1px solid;
+/* grid */
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.grid-container .grid-box-item {
+    min-height: 424px;
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    border-radius: 20px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container .item-image {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 16px;
+    border-radius: 20px;
+}
+
+.grid-container .vip-button {
+    background-color: #29B24E;
+    border-radius: 15px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 76px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+}
+
+.grid-container .image-container {
+    position: relative;
+}
+
+.grid-container .bookmark-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: -2px 4px 20px 0px #6D6D6D40;
+    border: none;
+    position: absolute;
+    right: 16px;
+    bottom: -12px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container h6 {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 500;
+    width: 92%;
+    margin: 0;
+    margin-left: 4%;
+    margin-top: 16px;
+}
+
+.grid-container .region {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 8px;
+    opacity: 50%;
+}
+
+.grid-container .Price-box {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    line-height: 1.4em;
+}
+
+.Price-box span {
+    color: #29B24E;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 1.4em;
+
+}
+
+.grid-container .specs {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #CFEAD6;
+    box-shadow: none;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+
+/* FOOTER START  */
+footer {
+    background-color: #29B24E;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90vw;
+}
+
+footer>hr {
+    width: 80vw;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    gap: 48px;
+}
+
+footer .right-menu {
+    justify-content: end;
+}
+
+
