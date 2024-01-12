@@ -192,7 +192,7 @@ a {
     margin-left: 4%;
     margin-top: 16px;
     border-radius: 20px;
-    max-height: 400px;
+    max-height: 200px;
     object-fit: none;
 }
 
@@ -451,7 +451,7 @@ footer .right-menu {
     margin-left: 4%;
     margin-top: 16px;
     border-radius: 20px;
-    max-height: 400px;
+    max-height: 214px;
     object-fit: none;
 }
 
@@ -567,4 +567,9 @@ footer .right-menu {
 .specs-info h6{
     text-decoration: none;
     margin: 0;
+}
+
+
+#floating-menu{
+    display:none;
 }
