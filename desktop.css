@@ -192,6 +192,8 @@ a {
     margin-left: 4%;
     margin-top: 16px;
     border-radius: 20px;
+    max-height: 400px;
+    object-fit: none;
 }
 
 .grid-container .vip-button {
@@ -449,6 +451,8 @@ footer .right-menu {
     margin-left: 4%;
     margin-top: 16px;
     border-radius: 20px;
+    max-height: 400px;
+    object-fit: none;
 }
 
 .grid-container2 .vip-button {
