@@ -426,3 +426,118 @@ footer .right-menu {
     box-shadow: none;
     border: none;
 }
+  
+
+/* grid 2 */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.grid-container2 .grid-box-item {
+    min-height: 424px;
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    border-radius: 20px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container2 .item-image {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 16px;
+    border-radius: 20px;
+}
+
+.grid-container2 .vip-button {
+    background-color: #29B24E;
+    border-radius: 15px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 76px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+}
+
+.grid-container2 .image-container {
+    position: relative;
+}
+
+.grid-container2 .bookmark-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: -2px 4px 20px 0px #6D6D6D40;
+    border: none;
+    position: absolute;
+    right: 16px;
+    bottom: -12px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container2 h6 {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 500;
+    width: 92%;
+    margin: 0;
+    margin-left: 4%;
+    margin-top: 16px;
+}
+
+.grid-container2 .region {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 8px;
+    opacity: 50%;
+}
+
+.grid-container2 .Price-box {
+    font-family: Poppins;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    line-height: 1.4em;
+}
+
+.Price-box span {
+    color: #29B24E;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 1.4em;
+
+}
+
+.grid-container2 .specs {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #CFEAD6;
+    box-shadow: none;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.8em;
+}
